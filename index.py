@@ -7,3 +7,13 @@ for i in li:
         break
     else:
         print(i)
+username  = ''        
+def login(username):
+    username = input()
+    if username != "":
+        print('welcome')
+    else:
+        print('enter your username ')
+
+
+login(username)
